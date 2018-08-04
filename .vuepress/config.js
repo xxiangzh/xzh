@@ -1,5 +1,5 @@
 module.exports = {
-    title: '向振华个人站点实打实的为情况决定回家',
+    title: '向振华个人站点',
     description: '算是闲谈吧',
     base:'/xzh-blog/doc/',
     port:4864,
@@ -14,7 +14,7 @@ module.exports = {
           { text: '多页面开发', link: '/multiPage/' },
         ],
         sidebar: 'auto',
-        repo: '/hisey/front-end-doc',
+        repo: '/xxiangzh/xzh-blog',
         repoLabel: 'gitHub',
       }
 }
