@@ -1,7 +1,7 @@
 # 设计模式
 ## 创建型  
-### 简单工厂模式
-<img :src="$withBase('/简单工厂模式.jpg')">
+### 简单工厂模式(Factory)
+<img :src="$withBase('/designPattern/简单工厂模式.jpg')">
 
 ```java
 public interface Sender {  
@@ -44,8 +44,8 @@ public class FactoryTest {
     }  
 }
 ```
-### 工厂方法模式
-<img :src="$withBase('/工厂方法模式.jpg')">
+### 工厂方法模式(Factory)
+<img :src="$withBase('/designPattern/工厂方法模式.jpg')">
 
 ```java
 public class SendFactory {  
@@ -86,8 +86,8 @@ public class FactoryTest {
 }
 ```
 
-### 抽象工厂模式
-<img :src="$withBase('/抽象工厂模式.jpg')">
+### 抽象工厂模式(Factory)
+<img :src="$withBase('/designPattern/抽象工厂模式.jpg')">
 
 ```java
 public interface Sender {  
@@ -136,7 +136,7 @@ public class Test {
     }  
 } 
 ```
-### 单例模式
+### 单例模式(Singleton)
 ```java
 public class Singleton {  
   
@@ -161,7 +161,7 @@ public class Singleton {
     }  
 }  
 ```
-### 建造者模式
+### 建造者模式(Builder)
 工厂类模式提供的是创建单个类的模式，而建造者模式则是将各种产品集中起来进行管理，用来创建复合对象，所谓复合对象就是指某个类具有不同的属性，其实建造者模式就是前面抽象工厂模式和最后的Test结合起来得到的。我们看一下代码：
 还和前面一样，一个Sender接口，两个实现类MailSender和SmsSender。最后，建造者类如下：
 ```java
@@ -189,7 +189,7 @@ public class Test {
     }  
 }
 ```
-### 原型模式
+### 原型模式(Prototype)
 ```java
 //浅复制
 public class Prototype implements Cloneable {  
@@ -204,22 +204,63 @@ public class Prototype implements Cloneable {
 } 
 ```
 ## 结构型  
-### 代理模式
-### 适配器模式
-### 装饰器模式
-### 桥接模式
-### 组合模式
-### 享元模式
-### 外观模式 
-## 行为型  
-### 观察者模式
-### 模板方法模式
-### 命令模式
-### 状态模式
-### 职责链模式
-### 解释器模式
-### 中介者模式
-### 访问者模式
-### 策略模式
-### 备忘录模式
-### 迭代器模式
+### 代理模式(Proxy)
+<img :src="$withBase('/designPattern/代理模式.jpg')">
+
+### 适配器模式(Adapter)
+<img :src="$withBase('/designPattern/类的适配器模式.jpg')">
+
+<img :src="$withBase('/designPattern/对象的适配器模式.jpg')">
+
+<img :src="$withBase('/designPattern/接口的适配器模式.jpg')">
+
+### 装饰模式(Decorator)
+<img :src="$withBase('/designPattern/装饰模式.jpg')">
+
+### 桥接模式(Bridge)
+<img :src="$withBase('/designPattern/桥接模式.jpg')">
+
+### 组合模式(Composite)
+<img :src="$withBase('/designPattern/组合模式.jpg')">
+
+### 享元模式(Flyweight)
+<img :src="$withBase('/designPattern/享元模式.jpg')">
+
+<img :src="$withBase('/designPattern/享元模式2.jpg')">
+
+### 外观模式(Facade)
+<img :src="$withBase('/designPattern/外观模式.jpg')">
+
+## 行为型
+### 观察者模式(Observer)
+<img :src="$withBase('/designPattern/观察者模式.jpg')">
+
+### 模板方法模式(Template)
+<img :src="$withBase('/designPattern/模板方法模式.jpg')">
+
+### 命令模式(Command)
+<img :src="$withBase('/designPattern/命令模式.jpg')">
+
+### 状态模式(State)
+<img :src="$withBase('/designPattern/状态模式.jpg')">
+
+### 责任链模式(Chain)
+<img :src="$withBase('/designPattern/责任链模式.jpg')">
+
+### 解释器模式(Interpreter)
+<img :src="$withBase('/designPattern/解释器模式.jpg')">
+
+### 中介者模式(Mediator)
+<img :src="$withBase('/designPattern/中介者模式.jpg')">
+
+### 访问者模式(Visitor)
+<img :src="$withBase('/designPattern/访问者模式.jpg')">
+
+### 策略模式(strategy)
+<img :src="$withBase('/designPattern/策略模式.jpg')">
+
+### 备忘录模式(Memento)
+<img :src="$withBase('/designPattern/备忘录模式.jpg')">
+
+### 迭代器模式(Iterator)
+<img :src="$withBase('/designPattern/迭代器模式.jpg')">
